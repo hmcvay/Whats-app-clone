@@ -28,7 +28,7 @@ const ChatListItem = (props: ChatListItemProps) => {
       </View>
 
       <Text style={styles.time}>
-        {chatRoom.lastMessage && moment(chatRoom.lastMessage.createdAt).format("DD/MM/YYYY")}
+        {chatRoom.lastMessage && moment(chatRoom.lastMessage.createdAt).format("MM/DD/YYYY")}
       </Text>
   
     </View>

@@ -33,7 +33,7 @@ const styles = StyleSheet.create ({
   },
 
   time: {
-    fontSize: 16,
+    fontSize: 14,
     color: 'grey'
   }
 });
